@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: employees-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:-employees}
+    username: ${POSTGRES_USER:-employees}
+    password: ${POSTGRES_PASSWORD:-employees}
+  jpa:
+    hibernate:
+      # El esquema lo define init.sql (Postgres); Hibernate solo lo valida.
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  paths-to-match: /api/v1/**

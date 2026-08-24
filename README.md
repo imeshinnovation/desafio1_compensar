@@ -177,3 +177,10 @@ La base apuntada no se modifica: los cambios de cada test se revierten con una t
 ## Stack
 
 Java 21 · Spring Boot 3.5 · Spring Data JPA · PostgreSQL · Testcontainers · Lombok · springdoc-openapi · JUnit 5 + Mockito · Bean Validation
+
+### Autor
+
+## Alexander Rubio Cáceres
+Ingeniero de Software
+Especialista en Seguridad de la Información
+Desarrollador FullStack

@@ -181,6 +181,6 @@ Java 21 · Spring Boot 3.5 · Spring Data JPA · PostgreSQL · Testcontainers ·
 ### Autor
 
 ## Alexander Rubio Cáceres
-Ingeniero de Software
-Especialista en Seguridad de la Información
-Desarrollador FullStack
+- Ingeniero de Software
+- Especialista en Seguridad de la Información
+- Desarrollador FullStack
